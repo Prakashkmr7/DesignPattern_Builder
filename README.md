@@ -1,4 +1,6 @@
 # DesignPattern_Builder
+Builder design pattern is a creational design pattern that allows us to construct an object step-by-step. It uses a builder class that contains the construction steps to create an object.
+
 Builder pattern was introduced to solve some of the problems with Factory and Abstract Factory design patterns when the Object contains a lot of attributes. There are three major issues with Factory and Abstract Factory design patterns when the Object contains a lot of attributes.
 
 1.)Too Many arguments to pass from client program to the Factory class that can be error prone because most of the time, the type of arguments are same and from client side its hard to maintain the order of the argument.
